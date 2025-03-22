@@ -1,0 +1,158 @@
+/* Reset some basic styles */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   
+   body {
+     font-family: 'Arial', sans-serif;
+     background: linear-gradient(45deg, #6a11cb, #2575fc);
+     color: white;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     transition: background 0.5s ease;
+   }
+   
+   .container {
+     width: 100%;
+     max-width: 600px;
+     padding: 30px;
+     background-color: rgba(0, 0, 0, 0.6);
+     border-radius: 10px;
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+   }
+   
+   header h1 {
+     font-size: 3em;
+     font-weight: 700;
+     margin-bottom: 0.5em;
+   }
+   
+   header p {
+     font-size: 1.2em;
+     margin-bottom: 1.5em;
+   }
+   
+   .form-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-bottom: 2em;
+   }
+   
+   #urlInput {
+     width: 100%;
+     padding: 10px;
+     font-size: 1em;
+     border: 2px solid #fff;
+     border-radius: 5px;
+     background-color: transparent;
+     color: #fff;
+     outline: none;
+     transition: border-color 0.3s;
+   }
+   
+   #urlInput:focus {
+     border-color: #2575fc;
+   }
+   
+   #generateBtn {
+     padding: 12px 25px;
+     font-size: 1.2em;
+     background-color: #2575fc;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     color: white;
+     transition: background-color 0.3s ease;
+   }
+   
+   #generateBtn:hover {
+     background-color: #6a11cb;
+   }
+   
+   .qr-code-container {
+     margin-top: 2em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     max-width: 500px; /* Fixed size for the container */
+     height: 500px; /* Fixed size for the QR code container */
+   }
+   
+   canvas {
+     width: 100% !important; /* Force the canvas to fill the container */
+     height: 100% !important; /* Force the canvas to fill the container */
+     object-fit: contain;
+     border: 2px solid #fff;
+     border-radius: 10px;
+     padding: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+   }
+   
+   .download-container {
+     margin-top: 1em;
+   }
+   
+   #downloadBtn {
+     padding: 12px 25px;
+     background-color: #6a11cb;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     text-decoration: none;
+     font-size: 1.2em;
+     display: inline-block;
+     transition: background-color 0.3s ease;
+   }
+   
+   /* Hide download button initially */
+   .hidden {
+     display: none;
+   }
+   
+   #downloadBtn:hover {
+     background-color: #2575fc;
+   }
+   
+   footer {
+     margin-top: 2em;
+     font-size: 0.8em;
+     color: #ddd;
+   }
+   
+   footer p {
+     font-size: 1em;
+   }
+   
+   @media (max-width: 480px) {
+     header h1 {
+       font-size: 2em;
+     }
+     
+     #urlInput {
+       font-size: 0.9em;
+     }
+   
+     #generateBtn {
+       font-size: 1em;
+     }
+   
+     #downloadBtn {
+       font-size: 1em;
+     }
+   
+     .qr-code-container {
+       width: 90%;
+       height: 300px;
+     }
+   }
+   
