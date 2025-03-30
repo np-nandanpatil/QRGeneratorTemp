@@ -8,5 +8,5 @@ And now here it is, I and ChatGPT copleted this in veyr less time, ChatGPT helpe
 <ol>
 <li>Click on the link here []()</li>
 <li>Paste the URL in the input field</li>
-<li>Click on the QR that is generated and you're good to go</li>
+<li>Click on the QR that is generated and download the QR</li>
 </ol>
