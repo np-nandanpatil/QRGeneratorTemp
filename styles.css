@@ -156,3 +156,18 @@
      }
    }
    
+
+   #auth-info{
+    color: white;
+   }
+   #auth-info-link{
+      color: #2575fc;
+      text-decoration: none;
+    color: white;
+   }
+   #auth-info-link:hover{
+      text-decoration: underline;
+   }
+   #auth-info-link:visited{
+      color: #2575fc;
+   }
