@@ -6,7 +6,7 @@ And now here it is, I and ChatGPT copleted this in veyr less time, ChatGPT helpe
 
 ### How to use it?
 <ol>
-<li>Click on the link [QRGenerator](https://np-nandanpatil.github.io/QRGeneratorTemp/)</li>
+<li>Click on the link <a href="https://np-nandanpatil.github.io/QRGeneratorTemp">QRGenerator</a></li>
 <li>Paste the URL in the input field</li>
 <li>Click on the QR that is generated and download the QR</li>
 </ol>
