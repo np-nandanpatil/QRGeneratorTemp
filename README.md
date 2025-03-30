@@ -1,6 +1,6 @@
 # QR code generator using qrcode.js
 
-     I was going through my old folders recently and found one old python file which had code to generate QR, it was just 3 lines of code, I wanted to build a simple webpage for that, what else can I think of? (I was bbored).
+I was going through my old folders recently and found one old python file which had code to generate QR, it was just 3 lines of code, I wanted to build a simple webpage for that, what else can I think of? (I was bbored).
 
 And now here it is, I and ChatGPT copleted this in veyr less time, ChatGPT helped me with the styling and final touches (for proper formatting and all), I did the logic and rest so that I don't forget JavaScript syntax.
 
